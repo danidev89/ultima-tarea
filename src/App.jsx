@@ -10,7 +10,7 @@ function App () {
     <LayoutInicio>
       <LayoutContenido>
         <Routes>
-          <Route path='/' element={<Inicio />} />
+          <Route path='/ultima-tarea' element={<Inicio />} />
           <Route path='/cursos' element={<Cursos />} />
         </Routes>
       </LayoutContenido>
