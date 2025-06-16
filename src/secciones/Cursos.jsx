@@ -25,7 +25,7 @@ const clasesData = [
 
 const Cursos = () => {
   return (
-    <div className='grid grid-cols-3 gap-2 p-8'>
+    <div className='grid md:grid-cols-2 lg:grid-cols-3 gap-3 p-8'>
       {
         clasesData.map((clase) => (
           <div key={clase.id} className='card bg-base-100 w-80 shadow-sm'>
